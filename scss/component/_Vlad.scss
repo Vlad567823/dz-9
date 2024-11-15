@@ -1,0 +1,39 @@
+#Vlad{
+     width: 100px;
+     height:100px;
+     position: relative;
+     animation-name: rotateBox;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+@keyframes rotateBox{
+     0%{
+          top: 0px;
+          left: 0;
+          background-color: red; }
+     25%{top: 200px;
+          left: 0%;
+          background-color: blue;}
+     50%{top: 200px;
+          left: 20%;
+         background-color: green;}
+     75% {
+          top: 0px;
+          left: 20%;
+          background-color: yellow;}
+     100%{top:0px;
+          left: 0;
+     background-color: red;}
+}
+.a{
+     text-align: center;
+     width: 50px;
+     height: 25px;
+     color: red;
+     font-size: 26px;
+     &:hover{
+         background-color: black; 
+     }
+     
+}
